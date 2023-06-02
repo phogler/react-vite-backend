@@ -1,0 +1,27 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    padding: 1rem;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.nav-links {
+    display: inline-flex;
+    gap: 2rem;
+    margin-left: 3rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-login {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    cursor: pointer;
+}

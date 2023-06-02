@@ -1,0 +1,25 @@
+.order-details {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.order-details-info {
+    margin-top: 10px;
+}
+
+.order-details-status {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.order-details-orders {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.order-details-card {
+    padding: 1rem;
+    border: 1px solid gray;
+}

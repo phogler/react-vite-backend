@@ -1,0 +1,58 @@
+.products {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.products-grid {
+    display: flex;
+    gap: 10px;
+}
+
+.product-create {
+    width: 300px;
+    height: max-content;
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+.product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-button {
+    margin-top: 15px;
+}
+
+.product-list {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.product-card {
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+.product-delete-button {
+    z-index: 10;
+    float: right;
+}
+
+.product-details-button {
+    width: 100%;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+}
+
+.product-description {
+    margin-top: 10px;
+    max-height: 100px;
+    overflow: auto;
+}

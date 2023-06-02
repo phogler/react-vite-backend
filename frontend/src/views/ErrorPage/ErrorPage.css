@@ -1,0 +1,9 @@
+.error-page {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.error-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}

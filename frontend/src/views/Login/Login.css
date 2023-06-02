@@ -1,0 +1,27 @@
+.login-container {
+    flex: 1;
+    display: grid;
+    place-items: center;
+}
+
+.login-form {
+    display: grid;
+    gap: 5px;
+    width: 500px;
+    max-width: 1040px;
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.checkbox-fields {
+    display: inline-flex;
+    gap: 10px;
+    margin: 5px 0;
+}
